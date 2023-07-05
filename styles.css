@@ -20,7 +20,7 @@ body {
 .card-img-overlay:hover{
     background: rgba(0, 85, 255, 0.45);
 }
-.card-img-overlay h3{
+.card-img-overlay h4{
     text-align:center;
     width: 100%;
     font-weight: 500;
@@ -33,7 +33,7 @@ body {
     opacity: 0;
     transition:0.5s ;
 }
-.card-img-overlay:hover h3{
+.card-img-overlay:hover h4{
     bottom: 49%;
     opacity: 1;
 }
@@ -44,7 +44,6 @@ body {
     object-fit: cover;
 }
 
-
 @media screen and (max-width: 576px) {
   .navbar-nav li {
     border-right: none;
@@ -52,7 +51,7 @@ body {
   .col-sm-4{
     margin-bottom:10px;
   }
-  .card-img-overlay:hover h3{
+  .card-img-overlay:hover h4{
     bottom: 10%;
     opacity: 1;
     font-size: medium;
@@ -73,12 +72,12 @@ body {
     border-right: none;
   }
 
-  .card-img-overlay:hover h3{
+  .card-img-overlay:hover h4{
     bottom: 40%;
     opacity: 1;
   }
-  .card-img-overlay h3{
-    font-size: medium;
+  .card-img-overlay h4{
+    font-size: large;
   }
   .card{
     height: 175px;
